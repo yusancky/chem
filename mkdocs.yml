@@ -1,0 +1,54 @@
+site_name: 尤桑记·化学笔记
+site_description: 雨伞CKY 的 化学笔记本
+site_author: yusancky
+site_url: https://yusancky.github.io/chem
+strict: false
+
+theme:
+  name: material
+theme:
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: 深色模式
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: 浅色模式
+     primary: teal
+     accent: cyan
+  font: false
+  language: zh
+  icon:
+    logo: fontawesome-solid-flask-vial
+    repo: fontawesome/brands/github-alt
+  favicon: favicon.png
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.footer
+
+plugins:
+  - search
+      lang: ja
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/yusancky
+
+copyright: 本笔记主要作者为 雨伞CKY，采用 <a rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/deed.zh">CC0 1.0 通用</a> 进行许可。
+
+repo_name: yusancky/chem
+repo_url: https://github.com/yusancky/chem
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
