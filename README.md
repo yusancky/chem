@@ -1,2 +1,0 @@
-# chem
-My chemistry notebook
